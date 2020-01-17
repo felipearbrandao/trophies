@@ -1,11 +1,10 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Mini desafio para a vaga de Developer na Ribon.
 
-Things you may want to cover:
+* Ruby 2.6.5p114 (2019-10-01 reision 67812)
 
-* Ruby version
+* Rails 6.0.2.1
 
 * System dependencies
 
