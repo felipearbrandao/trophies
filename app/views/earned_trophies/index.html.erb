@@ -1,0 +1,28 @@
+<h1>Trophies System</h1>
+<p>Set the number of actions of each type you want to perform.</p>
+
+<%= form_with scope: :actions, local: true do |form| %>
+  <p>
+    <%= form.label :get_coins %><br>
+    <%= form.number_field :coins, step: 1 %>
+  </p>
+
+  <p>
+    <%= form.label :die_a_few_times! %><br>
+    <%= form.number_field :deaths, step: 1 %>
+  </p>
+
+  <p>
+    <%= form.label :kill_some_monsters %><br>
+
+    <%= form.number_field :kills, step: 1 %>
+
+    <%= select_tag(:city_id, options_for_select([])) %>
+  </p>
+
+<!--  TROPHIES-->
+
+  <p>
+    <%= form.submit %>
+  </p>
+<% end %>
